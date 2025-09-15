@@ -1,0 +1,7 @@
+BLUE = 'C0'
+BLACK = 'k'
+RED = 'C3'
+GREEN = 'C2'
+PURPLE = 'C4'
+ORANGE = 'C2'
+GRAY = 'gray'
