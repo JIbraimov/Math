@@ -47,7 +47,7 @@ def extract_vectors_2d(objects):
         else:
             raise ValueError("Unrecognized object: {}".format(object))
 
-def draw2d(*objects, origin=True, axes=True, grid=(1,1), nice_aspect_ratio=True,
+def draw2D(*objects, origin=True, axes=True, grid=(1,1), nice_aspect_ratio=True,
             width=6, save_as=None):
 
     all_vectors = list(extract_vectors_2d(objects))
